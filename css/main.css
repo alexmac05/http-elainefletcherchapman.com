@@ -1,0 +1,81 @@
+/* ==========================================================================
+   main.css
+   ========================================================================== */
+
+body {
+    background: #FBF8EE url("../img/bg.png") no-repeat fixed top; 
+    color: #434341;
+    font: .8125em/1.4 "Trebuchet MS", "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Tahoma, sans-serif;
+    padding: 0;
+}
+a:link,
+a:hover,
+a:active {
+    color: #2c3651;
+}
+a:visited { 
+    color: #1f5b8b;
+}
+address {
+    font-style: normal;
+}
+blockquote:before,
+blockquote:after {
+    content: url("../img/dot.png");
+    display: block;
+    margin: 2em 0;
+}
+blockquote {
+    color: #434341;
+    text-align: center;
+}
+hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #C3BFBC;
+    margin: 1em 0;
+    padding: 0;
+}
+p {
+    margin: 0 0 1em 0;
+}
+.container {
+    margin: 3em auto;
+    width: 48em; /* 624px */
+}
+.logo {
+    text-align: center;
+}
+.logo-image {
+    margin-bottom: 2em;
+}
+.inner-wrapper {
+    margin: 2em 4em;
+}
+.sidebar {
+    float: left;
+    width: 12.75em;
+}
+.sidebar-headshot,
+.sidebar-quote {
+    display: block;
+}
+.sidebar-headshot {
+    margin-bottom: 3em;
+    -webkit-box-shadow: 3px 3px 5px 0 #434341;
+}
+.main-content {
+    float: left;
+    width: 27.25em;
+}
+.notice {
+    color: #574532;
+    font-size: .846153846153846em;
+    margin-top: 6em;
+    text-align: center;
+}
+.footer {
+    font-size: .923076923076923em;
+    text-align: center;
+}
