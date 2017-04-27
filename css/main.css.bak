@@ -81,10 +81,7 @@ p {
 }
 
 /* ------------------------------- MAIN NAV STYLES ----------------------------*/
-.bookcover {
-    align-content: center;
-    
-}
+
 ul {
 	list-style: none;
 }
